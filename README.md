@@ -4,7 +4,7 @@ A simple web app for a blog application with basic CRUD functionality
 
 # Getting started
 
-## Installation
+## Backend Installation
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/9.x/installation)
 
@@ -99,4 +99,54 @@ Request headers
 
 Refer the [api specification](#api-specification) for more info.
 
----
+## Frontend Installation
+
+Installing the frontend only has a few steps.
+
+Switch to the blog-vue folder
+
+    cd blog-vue
+
+Install all the dependencies using composer
+
+    npm install
+
+Start the local development server
+
+    npm run dev
+
+Here's what you should (hopefully) see.
+
+# Preview
+
+Home Page:
+
+![](images/1-HomePage.png)
+
+Search Dynamically by Author Name:
+
+![](images/2-DynamicSearch.png)
+
+Create new post:
+
+![](images/3-NewPost.png)
+
+New post saved:
+
+![](images/4-NewPostSaved.png)
+
+Show a post to edit:
+
+![](images/5-ShowPost.png)
+
+Add a comment:
+
+![](images/6-AddComment.png)
+
+Update the post:
+
+![](images/8-EditPostUpdated.png)
+
+Delete a post:
+
+![](images/9-DeletePost.png)
