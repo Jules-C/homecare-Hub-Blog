@@ -10,7 +10,7 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone git@github.com:Jules-C/homecare-Hub-Blog.git
+    gh repo clone Jules-C/homecare-Hub-Blog
 
 Switch to the repo folder
 
